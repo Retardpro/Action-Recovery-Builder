@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/TeamWin/android_device_motorola_vicky_twrp
+        default: https://github.com/retardpro/android_device_motorola_vicky_twrp
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
