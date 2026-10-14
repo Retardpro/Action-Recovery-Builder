@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/retardpro/android_device_motorola_tank
+        default: https://github.com/retardpro/android_device_motorola_roadstr
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
@@ -26,11 +26,11 @@ on:
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
-        default: device/motorola/tank
+        default: device/motorola/roadstr
       DEVICE_NAME:
         description: Device Name from tree (should match name on twrp_<DEVICE_NAME>.mk)
         required: true
-        default: tank
+        default: roadstr
       REPOPICK_PATCHES:
         description: (Optional) Gerrit commit numbers separated by a space to be included in the build (leave blank if not using)
         type: string
